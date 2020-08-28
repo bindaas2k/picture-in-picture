@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow:wght@500&display=swap");
+
 html {
   box-sizing: border-box;
 }
@@ -5,5 +7,35 @@ html {
 body {
   margin: 0;
   min-height: 100vh;
-  /* background: dodgerblue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(37, 37, 37);
+}
+
+.button-container {
+  border: 4px solid #240229;
+  /* padding: 20px; */
+  overflow: hidden;
+  border-radius: 50%;
+  box-shadow: -5px -5px 5px rgba(255, 255, 255, 0.2),
+    10px 10px 10px rgba(0, 0, 0, 0.4);
+}
+
+button {
+  cursor: pointer;
+  outline: none;
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  font-family: Barlow, sans-serif;
+  background: rgb(37, 37, 37);
+}
+
+button:hover {
+  background: rgb(41, 2, 2);
+}
+
+button:active {
+  background: rgb(37, 37, 37);
 }
